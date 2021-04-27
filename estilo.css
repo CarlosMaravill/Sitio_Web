@@ -1,0 +1,256 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	text-align: center;
+	font-size: 5em;
+}
+.one{
+	width: 90%;		
+	margin: 15px auto;
+	padding: 5px;
+	border: 2px solid black;
+	background-color: #BFC9CA;
+}
+.button1{
+	margin: 15px;
+	width: 20%;
+	transition-property: background-color; border-radius;
+	transition-duration: 4s;
+	transition-delay: 0s;
+	transition-timing-function: 
+}
+.button1:hover{
+	border-radius: 1px;
+	background-color: #B2E64C;
+}
+.button2{
+	width: 20%;
+	transition-property: background-color; border-radius;
+	transition-duration: 4s;
+	transition-delay: 0s;
+	transition-timing-function: 
+}
+.button2:hover{
+	border-radius: 1px;
+	background-color: #B2E64C
+}
+.button3{
+	width: 20%;
+	transition-property: background-color; border-radius;
+	transition-duration: 4s;
+	transition-delay: 0s;
+	transition-timing-function:
+}
+.button3:hover{
+	border-radius: 1px;
+	background-color: #B2E64C
+}
+input{
+	width: 20%
+}
+.two{
+	padding: 05px;
+	border: 2px solid black;
+	position: relative; 
+	left: 75px; 
+	width: 10%; 
+	padding: 10px;
+	bottom: 10px;
+	height: 500px;
+	background-color: #BFC9CA;
+}
+h2{
+	text-align: center;
+	border: 2px solid black; padding: 10px;
+	float: left;
+	position: relative;
+	left: 263px;
+	width: 63%;
+	top: -534px;
+}
+.parrafo1{
+	border: 2px solid black;
+	float: left;
+	position: relative;
+	left: 263px;
+	top: -531px;
+	width: 63%;
+	padding: 10px;
+	height: 446px;
+}
+.Imagen1{
+	width: 27%;
+	position: relative;
+	left: -750px;
+	top: -355px;
+}
+.publicidad{
+	border: 2px solid black;
+	width: 14%;
+	position: relative;
+	float: right;
+	right: 73px;
+	top: -835px;
+	height: 520px;
+	background-color: #BFC9CA;
+}
+.instagram{
+	width: 45%;
+	position: relative;
+	float: right;
+	right: 65px;;
+}
+.facebook{
+	width: 28%;
+	position: relative;
+	float: right;
+	right: -15px;
+	top: 135px;
+}
+.whattsapp{
+	width: 28%;
+	position: relative;
+	float: right;
+	right: 80px;
+	top: 215px;
+}
+.Telegram{
+	width: 65%;
+	position: relative;
+	float: right;
+	right: -25px;
+	top: 350px;
+}
+footer{
+	border: 2px solid black;
+	background-color: #BFC9CA;
+	padding: 7px;
+	position: relative;
+	left: 75px;
+	top: -305px;
+	width:89.5% 
+}
+.pie{
+	text-align: center;
+	border: 2px solid black;
+	padding: 5px;
+}
+.uno{
+	transition-property: background-color; border-radius;
+	transition-duration: 4s;
+	transition-delay: 0s;
+	transition-timing-function:
+}
+.uno:hover{
+	border-radius: 1px;
+	background-color: #B2E64C
+}
+.dos{
+	transition-property: background-color; border-radius;
+	transition-duration: 4s;
+	transition-delay: 0s;
+	transition-timing-function:
+}
+.dos:hover{
+	border-radius: 1px;
+	background-color: #B2E64C
+}
+.tres{
+	transition-property: background-color; border-radius;
+	transition-duration: 4s;
+	transition-delay: 0s;
+	transition-timing-function:
+}
+.tres:hover{
+	border-radius: 1px;
+	background-color: #B2E64C
+}
+.cuatro{
+	transition-property: background-color; border-radius;
+	transition-duration: 4s;
+	transition-delay: 0s;
+	transition-timing-function:
+}
+.cuatro:hover{
+	border-radius: 1px;
+	background-color: #B2E64C
+}
+@media screen and (max-width: 375px){
+	header{
+		flex-direction: column;
+	}
+	nav{
+		align-items: flex-start; 
+		flex-direction: column;
+		text-align: left;
+		position: relative;
+		left: -63px;
+	}
+	.uno{
+		position: relative;
+		left: -19px;
+	}
+	.dos{
+		position: relative;
+		left: -19px;
+	}
+	.tres{
+		position: relative;
+		left: -19px;
+	}
+	.cuatro{
+		position: relative;
+		left: -19px;
+	}
+	section{
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	h2{
+		position: relative;
+		left: 75px;
+	}
+	.parrafo1{
+		position: relative;
+		left: 75px;
+	}
+	.publicidad{
+		position: relative;
+		float: right;
+		right: -177px;
+		top: -1129px;
+	}
+	.instagram{
+	width: 75%;
+	position: relative;
+	float: right;
+	right: 15px;
+	}
+	.facebook{
+	width: 65%;
+	position: relative;
+	float: right;
+	right: 15px;
+	}
+	.whattsapp{
+	width: 65%;
+	position: relative;
+	float: right;
+	right: 15px;
+	}
+	.Telegram{
+	width: 65%;
+	position: relative;
+	float: right;
+	right: 15px;
+	}
+	footer{
+	position: relative;
+	left: 12px;
+	top: -1125px;
+	width:93%
+}
